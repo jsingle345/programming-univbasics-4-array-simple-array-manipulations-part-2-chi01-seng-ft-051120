@@ -14,3 +14,10 @@ def using_flatten(array)
   array.flatten
 end
 
+def using_delete(array)
+  array.delete
+end
+
+def using_delete_at(array, integer)
+  array.delete_at(array, 2)
+end
